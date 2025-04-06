@@ -1,4 +1,4 @@
-obj-m += module_param_example.o
+obj-m += module_param_charp.o
 
 KDIR = /lib/modules/$(shell uname -r)/build
 
