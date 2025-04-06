@@ -1,4 +1,4 @@
-obj-m += hello_world.o
+obj-m += module_param_example.o
 
 KDIR = /lib/modules/$(shell uname -r)/build
 
